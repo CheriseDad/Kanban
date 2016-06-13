@@ -20,4 +20,17 @@ class Person {
     return this.age;
   }
   
+  public boolean equals(Object obj) {
+    if (this == obj ) return true;
+    
+    if (obj instanceof Person) {
+      Person anotherPerson = (Person)obj;
+      if (this.getName().equals(anotherPerson.getName()) && this.getAge() == anotherPerson.getAge() ) {
+        return true;
+      }
+    }
+    
+    return false;
+  }
+  
 }
