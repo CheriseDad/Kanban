@@ -1,7 +1,18 @@
 package org.dc.kanban;
 
+/**
+ * Root Entrance of Application.
+ * 
+ * @author ScottWang
+ */
+ 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello World!!");
+    Person p = new Person();
+    p.setName("Zhangsan");
+    p.setAge(88);
+    
+    System.out.println(p);
+    
   }
 }
