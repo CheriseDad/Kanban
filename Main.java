@@ -1,5 +1,11 @@
 package org.dc.kanban;
 
+/**
+ * Root Entrance of Application.
+ * 
+ * @author ScottWang
+ */
+ 
 public class Main {
   public static void main(String[] args) {
     Person p = new Person();
